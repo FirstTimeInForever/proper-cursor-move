@@ -105,13 +105,13 @@
 									   map))
 
 (define-minor-mode proper-cursor-move-global-mode
-  "Your indentation sucks completely, so you use this mode globally"
+  "Your cursor movement is too bad, so you use this mode globally"
   :lighter " prop-cursor-move"
   :global t
   :keymap proper-cursor-move-mode-keymap)
 
 (define-minor-mode proper-cursor-move-mode
-  "Your indentation sucks, so you use this mode"
+  "Your cursor movement sucks, so you use this mode"
   :lighter " prop-cursor-move"
   :keymap proper-cursor-move-mode-keymap)
 
