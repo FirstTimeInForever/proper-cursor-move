@@ -1,4 +1,4 @@
-(setq firsttimeinforever/separators-regexp "\\([\-'\"(){};:,.\\/?!@#%&*+=\]\\)\\|\\(\\[\\)\\|\\(\\]\\)\\|\\(\\s-\\)\\|\\(\\s_\\)\\|\\(\\`\\)\\|\\(\\'\\)\\|\\(\\^\\)\\|\\(\n\\)")
+(setq firsttimeinforever/separators-regexp "\\([\-'\"(){};:,.\\/?!@#%&*+=<>\]\\)\\|\\(\\[\\)\\|\\(\\]\\)\\|\\(\\s-\\)\\|\\(\\s_\\)\\|\\(\\`\\)\\|\\(\\'\\)\\|\\(\\^\\)\\|\\(\n\\)")
 
 (defun firsttimeinforever/position-normalize-forward(saved-pos my-pos)
   "Normalize position after forward move"
